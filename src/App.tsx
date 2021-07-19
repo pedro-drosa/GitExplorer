@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { Dashboard } from './pages/Dashboard';
+// import { Dashboard } from './pages/Dashboard';
+import { Repositories } from './pages/Repositories';
 
 
 import GlobalStyle from './styles/global';
@@ -8,7 +9,8 @@ import GlobalStyle from './styles/global';
 function App() {
   return (
     <>
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <Repositories/>
       <GlobalStyle />
     </>
   );
