@@ -6,6 +6,9 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-size: 1.125em;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body {
+    background: #e9ecf5;
   }
 `;
